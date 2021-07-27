@@ -44,11 +44,9 @@ song;
 job;
 partner;
 
-const { song2, song4, nestedJob, nestedPartner} = theMuppetMovie;
-song2;
-song4;
-nestedJob;
-nestedPartner;
+const { nestedJob, nestedPartner } = nestedMuppet;
+const { song2, song4 } = nestedMuppet.album.theMuppetMovie;
+
 
 
 
